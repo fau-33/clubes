@@ -1,6 +1,7 @@
 import Quadra from "./Quadra";
 
 class Clube {
+    [x: string]: any;
     private quadras: Quadra[] = [];
 
     public adicionarQuadra(quadra: Quadra) {
